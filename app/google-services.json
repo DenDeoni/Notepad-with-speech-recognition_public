@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "8657197163",
+    "firebase_url": "https://notepadspeechrecognition.firebaseio.com",
+    "project_id": "notepadspeechrecognition",
+    "storage_bucket": "notepadspeechrecognition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8657197163:android:67ac0a3ad63c83b104792e",
+        "android_client_info": {
+          "package_name": "com.notes.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8657197163-7pvcacalcg296atgbnfhn89kuqmhce90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgYcHdf5MIVpxEYcGQnFhKezJdDC2LZCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8657197163-7pvcacalcg296atgbnfhn89kuqmhce90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

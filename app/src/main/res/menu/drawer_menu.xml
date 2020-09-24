@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/sorting">
+        <menu>
+            <item
+                android:id="@+id/sort_by_date"
+                android:checkable="true"
+                android:title=""
+                app:actionLayout="@layout/sort_date_frame" />
+            <item
+                android:id="@+id/sort_by_changes"
+                android:checkable="true"
+                android:title=""
+                app:actionLayout="@layout/sort_change_frame" />
+            <item
+                android:id="@+id/sort_by_title"
+                android:checkable="true"
+                android:title=""
+                app:actionLayout="@layout/sort_title_frame" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/back_up"
+        android:title="@string/backup">
+        <menu>
+            <item
+                android:id="@+id/to_cloud_item"
+                android:title=""
+                app:actionLayout="@layout/to_cloud_frame" />
+            <item
+                android:id="@+id/from_cloud_item"
+                android:title=""
+                app:actionLayout="@layout/from_cloud_frame" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/auth"
+        android:title="@string/auth">
+        <menu>
+            <item
+                android:id="@+id/btn_sign_in"
+                android:title=""
+                app:actionLayout="@layout/sign_in_frame" />
+            <item
+                android:id="@+id/user_mail_item"
+                android:title=""
+                app:actionLayout="@layout/user_mail_frame"/>
+            <item
+                android:id="@+id/btn_sign_out"
+                android:title=""
+                app:actionLayout="@layout/sign_out_frame" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.idea/caches/build_file_checksums.ser
+/app/src/main/java/com/notes/example/views/data/
+/app/src/main/java/com/notes/example/views/ui/login/
+/app/src/main/java/com/notes/example/utils/Encryption.kt
+/app/src/main/java/com/notes/example/network/SecondDB.kt

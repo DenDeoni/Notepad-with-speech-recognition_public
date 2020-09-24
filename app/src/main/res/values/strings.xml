@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Notebook with speech recognition</string>
+    <string name="create_button_text">Create New Note</string>
+    <string name="btn_content_description">Close Content View or delete Note</string>
+    <string name="title_create">Title:</string>
+    <string name="text_create">Text:</string>
+    <string name="save_button_text">Save</string>
+    <string name="save_copy_button_text">Save copy</string>
+    <string name="note">Note &#160;</string>
+    <string name="note_was_del">was successfully deleted</string>
+    <string name="note_was_not_del">was not deleted. Network problem.</string>
+    <string name="edit_button_text">Edit</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="want_to_delete">Do you really want to delete this note?</string>
+    <string name="want_replace_cloud">All data in the cloud will be replaced. Do you confirm?</string>
+    <string name="want_replace_db">All data in your device will be replaced. Do you confirm?</string>
+    <string name="yes_button_text">YES</string>
+    <string name="no_button_text">No</string>
+    <string name="saved_to">Saved to:</string>
+    <string name="internal_storage">Internal Storage Root</string>
+    <string name="send_by">Send by</string>
+    <string name="open_by">Open by</string>
+    <string name="permission_denied">Permission denied!</string>
+    <string name="audio_recording_error">Audio recording error</string>
+    <string name="recognition_service_busy">Recognition Service busy, please, wait!</string>
+    <string name="client_side_error">Client side error</string>
+    <string name="no_permissions">Insufficient permissions</string>
+    <string name="network_error">Network error</string>
+    <string name="network_timeout">Network timeout</string>
+    <string name="no_match">No match, please try again.</string>
+    <string name="error_from_server">Error from server</string>
+    <string name="no_speech_input">No speech input</string>
+    <string name="didnt_understand">Didn\'t understand, please try again.</string>
+    <string name="close_w_o_saving">Close w/o saving?</string>
+    <string name="info_edit_create">• To start record the <b>Title</b> press <b>Volume Up</b> button\n\n• To start record the <b>Text</b> press <b>Volume Down</b> button</string>
+    <string name="select_lang">speech language:</string>
+    <string name="author_mail">author: badaev@email.cz</string>
+    <string name="e_mail" translatable="false">badaev@email.cz</string>
+    <string name="subject" translatable="false">Feedback from app notes</string>
+    <string name="sorting"><big>Sorting by</big></string>
+    <string name="sort_by_date">date created</string>
+    <string name="sort_by_title">title alphabetical</string>
+    <string name="sort_by_changes">last changes</string>
+    <string name="facebook_application_id" translatable="false">947528029004077</string>
+    <string name="facebook_app_id" translatable="false">947528029004077</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb947528029004077</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb947528029004077</string>
+    <string name="backup"><big>BackUp</big></string>
+    <string name="to_server">Backup to cloud</string>
+    <string name="auth"><big>Authorization</big></string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="restore_from_server">Restore from server</string>
+    <string name="last_change">- last change</string>
+    <string name="changed">"last change - "</string>
+    <string name="no_change">No change</string>
+    <string name="text_name_app">Notepad with\nspeech recognition</string>
+    <string name="info_text"><big><b>Version 1.1.0</b></big>\n\nThis app allows you create text messages and documents.\n\nYou can:\n• to record a voice message\n• convert it to text\n• save a text document on your smartphone\n• export a document to a PDF file\n• share it via messengers, e-mail, SMS\n• backup your notes in the cloud.
+    </string>
+    <string name="coming_soon"><big><b>Coming soon:</b></big>\n\n• Translation from / into different languages</string>
+    <string name="privacy_policy" translatable="false"><big><b><u>Privacy Policy</u></b></big></string>
+    <string name="privacy_policy_url" translatable="false">https://badaev.wixsite.com/portfolio/privacy-policy</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <!-- Strings related to login -->
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome!"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+    <string name="cannot_read">Cannot read from the cloud</string>
+    <string name="success_write_db">Data was uccessfully restored</string>
+    <string name="success_write_cloud">Backup is successful</string>
+    <string name="cloud_empty">Cloud is empty</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="auth_cancel">Authorization was canceled</string>
+    <string name="doc" translatable="false">Doc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="use_volume_up">– volume ▲</string>
+    <string name="use_volume_down">– volume ▼</string>
+    <string-array name="lang_list">
+        <item><font color="white">english</font></item>
+        <item><font color="white">русский</font></item>
+        <item><font color="white">čeština</font></item>
+        <item><font color="white">deutsch</font></item>
+        <item><font color="white">français</font></item>
+        <item><font color="white">italiano</font></item>
+        <item><font color="white">español</font></item>
+        <item><font color="white">polskie</font></item>
+        <item><font color="white">slovenský</font></item>
+        <item><font color="white">中文</font></item>
+    </string-array>
+</resources>
